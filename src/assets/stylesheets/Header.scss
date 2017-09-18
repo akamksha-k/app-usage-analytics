@@ -1,0 +1,66 @@
+.header {
+	h1 {
+		color: #ffffff;
+		margin-bottom: 0px;
+	}
+}
+
+.header__upper {
+  background-color: #1897da;
+  padding: 20px;
+  .create-doc-link
+  {
+    color: #ffffff;
+    cursor:pointer;
+    text-decoration: underline;
+    margin-left:50px;
+    bottom: 0px;
+  }
+
+}
+
+.header__lower {
+  background-color: #1eaaf1;
+  border-bottom: 3px solid #dbdbdb;
+  height: 60px;
+  .create-doc-link
+  {
+    color: #ffffff;
+    padding: 30px;
+    bottom: 0px;
+    cursor:pointer;
+    text-decoration: underline;
+  }
+}
+
+.profilePhoto {
+ position: absolute;
+  top: 13px;
+  right: 58px;
+  float: right;
+}
+
+.UserDisplayName{
+  float: right;
+  margin-right: 118px;
+  margin-top: -31px;
+  color: white;
+  font-size: 16px;
+}
+
+.asyncDiv{
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color:#000 !important;
+  opacity: 0.75 !important;
+  z-index: 9999999 !important;
+  background-image: url("../images/Loading.gif") !important;
+  background-size: 60px 60px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+

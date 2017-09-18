@@ -1,0 +1,395 @@
+.dashboard__welcome {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.alignLeft {
+  padding-left: 3%;
+}
+
+.protocols {
+  clear: both;
+  margin: 0 auto;
+  padding-bottom: 5em;
+
+  a {
+    color: black;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+    color: rgb(117, 117, 117);
+  }
+
+  p.message {
+    margin: 2em;
+  }
+
+  .paper-protocol {
+    margin: 0em 2em 2em 2em;
+    float: left;
+    width: 29% !important;
+    min-height: 400px;
+  }
+
+  .protocol-dates {
+    margin-bottom: 12px;
+  }
+
+  .protocol-status {
+    text-align: right;
+    margin-top: -1.5em;
+    margin-right: 0.5em;
+    font-size: 1.1em;
+    color: rgb(255, 197, 112);
+    float: right;
+
+    &.completed {
+      color: rgb(139, 195, 74);
+    }
+  }
+
+  .short-Title,
+  .protocol-Number,
+  .start-Date,
+  .section-info {
+    margin-left: 7%;
+  }
+
+  .short-Title {
+    font-size: 2em;
+  }
+
+  .protocol-Number {
+    font-size: 0.9em;
+    color: rgb(117, 117, 117);
+  }
+
+  .section-info {
+    margin-right: 7%;
+    width: 86%;
+    display: inline-block;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+
+    .sections-stat {
+      width: 60%;
+      margin: 0 auto;
+      color: inherit;
+      padding: 0.25em 0;
+      text-align: left;
+      vertical-align: middle;
+
+      .statistic {
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      &.total {
+        margin-top: 0.5em;
+      }
+    }
+  }
+  .start-Date {
+    font-size: 0.9em;
+    margin-top: 3em;
+  }
+
+  .end-Date {
+    float: right;
+    margin-top: -1.3em;
+    margin-right: 0.5em;
+    font-size: 0.9em;
+  }
+
+  .start-Date > span {
+    color: rgb(117, 117, 117);
+  }
+
+  .end-Date > span {
+    color: rgb(117, 117, 117);
+  }
+
+  .md-paper--5 {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+      0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.btn-expandlist {
+  box-shadow: 0px !important;
+  background-color: transparent !important;
+  margin-left: 5px !important;
+
+  .md-fake-btn {
+    margin-bottom: -8px;
+  }
+
+  .Detailed-tile {
+    font-size: 13px;
+    color: grey;
+    margin-left: 20px;
+    border: 1 px solid grey;
+    background-color: #eff0f2;
+    padding: 10px;
+    margin-right: 40px;
+  }
+
+  .md-text {
+    color: grey !important;
+    margin-top: -13px;
+    font-size: 13px !important;
+  }
+
+  li {
+    background-color: transparent !important;
+  }
+
+  .md-dialog-footer {
+    display: none;
+  }
+  .md-icon {
+    margin-right: 270px;
+    margin-top: -10px;
+  }
+  .md-paper--1 {
+    box-shadow: 0px 0px !important;
+  }
+}
+.btn-expandlist {
+  box-shadow: 0px !important;
+  background-color: transparent !important;
+  margin-left: 5px !important;
+
+  .md-fake-btn {
+    margin-bottom: -8px;
+  }
+
+  .Detailed-tile {
+    font-size: 13px;
+    color: grey;
+    margin-left: 20px;
+    border: 1 px solid grey;
+    background-color: #eff0f2;
+    padding: 10px;
+    margin-right: 40px;
+  }
+
+  .md-text {
+    color: grey !important;
+    margin-top: -13px;
+    font-size: 13px !important;
+  }
+
+  li {
+    background-color: transparent !important;
+  }
+
+  .md-dialog-footer {
+    display: none;
+  }
+  .md-icon {
+    margin-right: 270px;
+    margin-top: -10px;
+  }
+  .md-paper--1 {
+    box-shadow: 0px 0px !important;
+  }
+}
+.dvMetrics {
+  margin-top: 0.5em;
+  font-size: 16px;
+  color: #1eaaf1 ;
+  margin-left: 28px;
+  width:14% !important;
+}
+.dvNoMetrics {
+  font-size: 16px;
+  color: #1eaaf1;
+  margin-left: 28px;
+  margin-top: 28px;
+}
+.Report {
+  float: right;
+  text-align: left;
+  margin-top: -2.4em;
+  margin-right: 1.5em;
+  font-size: 16px;
+  color: rgb(139, 195, 74);
+  margin-left: 20px;
+  width: 65%;
+  height: 100%;
+
+  .LineChartDropdown {
+    float: right;
+    margin-right: 23px;
+  }
+  canvas {
+    height: 280px !important;
+  }
+  .ChartDoughnut {
+    canvas {
+      width: 522px !important;
+    }
+  }
+  .hoursClass {
+    color: #abacad;
+    font-size: 11px;
+    margin-left: 36px;
+  }
+}
+.Metric {
+  margin-left: 54px;
+  .protocol_title {
+    color: #abacad !important;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  h3 {
+    margin-left: 16px !important;
+  }
+  .LineChart {
+    width: 96%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .DownloadIcon {
+    float: right;
+    margin-top: 7px;
+    margin-right: 50px;
+    background: transparent;
+  }
+}
+.Leftpanel {
+  width: 30%;
+  float: left;
+  .md-dialog-footer {
+    display: none;
+  }
+  .md-expansion-panel-list {
+    li {
+      .md-panel-header {
+        background-color: #edf0f4 !important;
+      }
+      margin-bottom: 6px;
+    }
+  }
+
+  .md-text {
+    font-weight: bold !important;
+  }
+}
+
+// ---------------------------------------------
+// ----------------------------------------------
+.MetricTable {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .AddEdit {
+    margin-right: 8px;
+  }
+
+  th {
+    height: 50px;
+  }
+  .ExpansionPanel_text {
+    margin-bottom: 7px;
+  }
+}
+.line-Chart-complete
+{
+  height:4px;
+  width:7.8%;
+  background-color: rgb(54,141,203);
+  float:left;
+}
+
+.line-Chart-review
+{
+  height:4px;
+  width:7.8%;
+  background-color: rgb(63,166,248);
+  float:left;
+}
+.line-Chart-progress
+{
+  height:4px;
+  width:7.8%;
+  background-color: rgb(66,210,255);
+  float:left;
+}
+.line-Chart-notstarted
+{
+  height:4px;
+  width:7.8%;
+  background-color: rgb(225,247,255);
+  float:left;
+}
+
+.line-Chart-black
+{
+  height:4px;
+  width:1%;
+  background-color: black;
+  float:left;
+}
+
+.circle {
+  width: 1%;
+  height: 100%;
+  background: black;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  float:left;
+  margin-top: -5px;
+}
+.line-chart-height
+{
+  height:13px;
+}
+.graph-text
+{
+  margin-top:5px;
+}
+
+.graph-text-complete
+{
+  font-size:11px;
+  font-family: "Roboto", sans-serif;
+  color: #abacad;
+}
+
+.graph-text-review
+{
+  font-size:11px;
+  font-family: "Roboto", sans-serif;
+  color: #abacad;
+  margin-top:-14px;
+  margin-left:26.25%;
+}
+.graph-text-progress
+{
+  font-size:11px;
+  font-family: "Roboto", sans-serif;
+  color: #abacad;
+  margin-top:-14px;
+  margin-left:35%;
+}
+.graph-text-notstarted
+{
+  font-size:11px;
+  font-family: "Roboto", sans-serif;
+  color: #abacad;
+  margin-top:-14px;
+  margin-left:79.25%;
+}
+

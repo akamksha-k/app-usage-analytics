@@ -1,0 +1,354 @@
+/* _expansion-panels.scss */
+//@import '~react-md-scss';
+//@import '~react-md/src/scss/react-md-scss';
+@import '~react-md/src/scss/react-md';
+@include react-md-everything;
+// @import '~react-md-scss';
+
+.opacity-enter {
+  opacity: 0;
+
+  &.opacity-enter-active {
+    opacity: 1;
+    transition-duration: 1000ms;
+    transition-property: opacity;
+    transition-timing-function: $md-transition-deceleration;
+  }
+}
+
+#footer
+{
+  margin-top: 2%;
+  float:right;
+}
+
+
+.ancCompleteDoc
+        {
+           color:deepskyblue !important;
+            font-size: 18px !important;
+            font-weight: bold !important;
+          font-family: "Roboto", sans-serif;
+        }
+        
+.ancCompleteDocDisabled
+        {
+           color:rgb(215, 215, 215) !important;
+            font-size: 18px !important;
+            font-weight: bold !important;
+          font-family: "Roboto", sans-serif;
+        }
+
+#dvSections {
+  
+  .lblAuthReviewSect
+        {
+           color:deepskyblue !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+          font-family: "Roboto", sans-serif;
+        }
+    .lblStatus
+    {
+      color:lightslategrey !important;
+       font-size: 13px !important;
+       font-family: "Roboto", sans-serif;
+    }
+  .instructions_dialog_empty {
+      display: inline-block;
+      margin-left: 1px;
+      vertical-align: top;
+}
+
+.floatLeft{
+  float: left !important;
+}
+  .md-panel-header--focused {
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.9) !important;
+  }
+
+  .md-expansion-panel-list, .md-list-unstyled, .md-list, .md-tabs {
+    width:100%;
+  }
+
+  .md-expansion-panel-list{
+    margin:auto !important;
+  }
+
+  .md-panel-content {
+    padding: 0 34px 10px !important;
+  }
+
+  .md-panel-header--expanded
+  {
+    height:25% !important;
+  }
+
+  .md-background--primary {
+    background: rgb(30, 170, 241);
+  }
+
+  .protocol_title, .protocol_number, .protocol_info {
+    margin: 0 0 0 20px;
+  }
+
+  .protocol_number {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .sections {
+    h4, .section__heading, .section__protocol-metadata {
+      font-weight: bold;
+    }
+    .section-data-no-font-weight{
+      font-weight: normal !important;
+    }
+    span[style~='bold;']>span {
+        font-weight: bold;
+    }
+
+    .section__heading {
+      margin: 1em 0;
+    }
+
+    .section__input__full-text {
+      h4 {
+        margin: 0.5em 0 0;
+      }
+
+      .rdw-option-wrapper {
+        width:50px;
+        margin: 0.5em 0 0;
+      }
+
+      .rdw-editor-toolbar {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .rdw-editor-main {
+        border: 1px solid #f1f1f1;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    }
+
+    .section__input__radio-button {
+      margin: 0.5em 0;
+
+      fieldset {
+        border: 1px solid #f1f1f1;
+      }
+
+      .md-fake-btn {
+        background:transparent !important;
+      }
+    }
+
+    li.md-paper {
+      div#footer {
+        .md-btn {
+          margin: 0 0 4px 4px;
+        }
+      }
+    }
+
+    .md-dialog-footer {
+      display: none !important;
+    }
+
+    h3 {
+      .instructions_dialog {
+        margin-top: -12px;
+      }
+    }
+    h4 {
+      .instructions_dialog {
+        margin-top: -4px;
+      }
+    }
+    .instructions_dialog {
+      display: inline-block;
+      margin-left: -26px;
+      vertical-align: top;
+      .md-btn--icon {
+        width: 26px;
+        height: 26px;
+        padding: 4px;
+
+        &.md-text--theme-primary {
+          color: rgb(30, 170, 241);
+        }
+        .md-icon{
+          font-size: 18px;
+        }
+      }
+    }
+
+    .example_dialog {
+      display: inline-block;
+      margin-left: -26px;
+      vertical-align: top;
+      float: right;
+      margin-top: -5px;
+
+      .activeLink{
+        a {
+          cursor: pointer !important;
+          font-size: 11px !important;
+          font-family: "Roboto", sans-serif !important;
+          color: rgb(30, 170, 241);
+          .active {
+            cursor: pointer !important;
+          }
+        }  
+      }
+
+      .deactiveLink{
+        a {
+          font-size: 11px !important;
+          font-family: "Roboto", sans-serif !important;
+          color: #757575;
+          pointer-events: none;
+          cursor: default;
+        }  
+      }
+    }
+  }
+}
+
+.instructions_modal {
+  &.md-overlay.md-dialog-container {
+    background: transparent;
+    z-index: 0;
+    transition-duration: 0s;
+  }
+
+  .md-dialog {
+    position: relative;
+    width:100% !important;
+    overflow-y: auto;
+
+    .md-dialog-footer {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+
+      .md-btn {
+        width: 36px;
+        min-width: 36px;
+        padding: 6px;
+      }
+    }
+  }
+}
+
+
+#dvSearchSection{
+  .btnSearchDOC{
+    color: deepskyblue !important;
+    margin-top:2% !important;
+    background: transparent !important;
+    padding-left: 0px !important;
+  }
+}
+
+.md-dialog-container.md-overlay.md-overlay--active.example_modal
+{
+ left: 73% !important;
+ width:26% !important;
+}
+.md-dialog-container.md-overlay.md-overlay--active.instructions_modal
+{
+ width:26% !important;
+}
+
+.example_modal {
+  &.md-overlay.md-dialog-container {
+    background: transparent;
+    z-index: 0;
+    transition-duration: 0s;
+  }
+  
+
+  .md-dialog {
+    position: relative;
+    width:100% !important;
+    overflow-y: auto;
+
+    .md-dialog-footer {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+
+      .md-btn {
+        width: 36px;
+        min-width: 36px;
+        padding: 6px;
+        font-family: Roboto !important;
+      }
+    }
+  }
+}
+
+.docActions
+{
+  padding-bottom: 30px !important;
+  width: 670px !important;
+}
+
+.complete-Document
+{
+  float: left;
+  padding-top: 15px !important;
+  padding-left: 15px !important;
+  display: inline !important;
+}
+
+.export-Document{
+  padding-top: 15px !important;
+  width:205px !important;
+  float: right;
+}
+
+.ancExportDoc{
+  color:deepskyblue !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5% !important;
+}
+
+#dialConfirmDocumentClosure .md-btn--dialog {
+    height: 36px;
+    min-width: 64px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: deepskyblue !important;
+}
+
+#dialConfirmationStateChange .md-btn--dialog {
+    height: 36px;
+    min-width: 64px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: deepskyblue !important;
+}
+
+.asyncDiv{
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background-color:#000 !important;
+    opacity: 0.75 !important;
+    z-index: 9999999 !important;
+    background-image: url("../images/Loading.gif") !important;
+    background-size: 60px 60px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}

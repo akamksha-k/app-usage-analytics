@@ -1,0 +1,322 @@
+.md-dialog-footer--card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.md-dialog-footer--card-centered {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+
+ .md-dialog-container.md-overlay {
+  transition-duration: 0.3s;
+  z-index: 20; }
+
+  .md-dialog--full-page {
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    top: 0;
+    width: 100% !important;
+    z-index: 10;
+    overflow-x: hidden !important;
+}
+
+.md-dialog--centered {
+  left: 50%;
+  max-height: calc(100% - 48px);
+  max-width: calc(100% - 80px);
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0); }
+  .md-dialog--centered .md-list {
+    padding-bottom: 8px;
+    padding-top: 0; }
+  .md-dialog--centered .md-list-tile {
+    height: auto;
+    padding: 16px 24px; }
+  .md-dialog--centered .md-tile-text--primary {
+    white-space: normal; }
+
+.md-dialog--centered-enter {
+  -webkit-transform: translate3d(-50%, calc(-50% + -30px), 0);
+          transform: translate3d(-50%, calc(-50% + -30px), 0); }
+  .md-dialog--centered-enter.md-dialog--centered-enter-active {
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform; }
+
+.md-dialog--centered-leave {
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0); }
+  .md-dialog--centered-leave.md-dialog--centered-leave-active {
+    -webkit-transform: translate3d(-50%, calc(-50% + -30px), 0);
+            transform: translate3d(-50%, calc(-50% + -30px), 0);
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    }
+
+.md-title--dialog {
+  margin-bottom: 0;
+  padding: 24px;
+  padding-bottom: 20px;
+  white-space: normal;
+   }
+
+.md-dialog-content {
+  overflow: auto; }
+
+.md-dialog-content--padded {
+  padding: 24px; }
+  .md-dialog-content--padded:not(:first-child) {
+    padding-top: 0; }
+
+.md-dialog-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.md-dialog-footer--inline {
+  padding: 8px; }
+  .md-dialog-footer--inline .md-btn--dialog + .md-btn--dialog {
+    margin-left: 8px; }
+
+.md-dialog-footer--stacked {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 8px;
+  padding-right: 8px; }
+  .md-dialog-footer--stacked .md-btn--dialog {
+    margin-bottom: 6px;
+    margin-top: 6px; }
+
+.md-btn--dialog {
+  height: 36px;
+  min-width: 64px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.md-btn--text {
+  color: white !important}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+ul {
+  margin: 12px 0; }
+
+.md-subheading-1
+{
+  height: 0px;
+  color: rgba(0, 0, 0, 0.54) !important;
+  font-size: 13px !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 0px;
+}
+
+.md-selection-control-group
+{
+padding:0px !important;
+}
+
+.md-selection-control-group .md-text
+{
+margin-top:10% !important;
+}
+
+.previewDocTitle{
+    margin-left:5%;
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+a {text-decoration: none}
+
+.displayNone{
+  display: none;
+}
+
+div {
+    font-family: "Roboto", sans-serif;}
+
+.md-fake-btn{
+ background: transparent !important;
+ height: 60px;
+ padding-bottom: 0px;
+ padding-top: 8px;
+ }
+
+
+.md-tile-text--primary .md-text{
+width:200px !important;
+}
+
+.previewClass{
+  margin-top: 10% !important;
+}
+
+strong{
+  font-weight: bold;
+}
+.titleSectionMargin{
+  margin-left: 5% !important;
+}
+
+.space5{
+  margin-left: 5px !important;
+}
+
+.previewProtocolStudyNickName{
+  margin-top: 1% !important;
+  margin-left: 25% !important;
+  width:49% !important;
+  padding: 0px !important;
+}
+
+.titleHeader{
+  width:265px !important;
+  font-weight: bold;
+  font-size: 18px !important;
+  vertical-align: top !important;
+}
+
+.colonAlign{
+  vertical-align: top;
+  padding-top: 3px !important;
+  width: 10px !important;
+}
+
+.emptySpace{
+  height: 5px !important;
+}
+
+h3{
+margin-bottom: 0px !important;
+}
+
+.floatright{
+  margin-right: 0px !important;
+}
+
+.setFromTop{
+  vertical-align: middle ;
+}
+.titleDetails{
+  font-size: 16px !important;
+  font-family: sans-serif !important;
+}
+
+#protocolPreviewToolBar.md-background--primary{
+  background: #1eaaf1 !important;
+}
+.ancExportProtocolDoc
+{
+  color:deepskyblue !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.ancExportProtocolJson
+{
+  color:deepskyblue !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: "Roboto", sans-serif;
+}
+.ExportControlsForProtocol
+{
+  margin-top: 6% !important;
+  margin-right: 28% !important;
+}
+
+.md-toolbar--fixed {
+    left: 0;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    z-index: 15;
+}
+#dialProtocolPreviewTemplate{
+.rdw-editor-toolbar {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 0;
+        border-bottom: 0;
+        visibility: hidden !important;
+      }
+
+.protocol_title_preview{
+    width: 100% !important;
+    display: inline !important;
+    margin-left: 5px !important;
+  }
+
+  .protocol_number{
+    width: 100% !important;
+    display: inline !important;
+    margin-left: 5px !important;
+  }
+}
+
+.downloadDoc {
+    position: relative;
+    margin-top: -1.5% !important;
+    margin-left: 1% !important;
+    float: right !important;
+    padding-top: 3px !important;
+    padding-left: 4px !important;
+    background-color: black;
+    color: white;
+    height:27px;
+    width:27px;
+    border-radius: 5px;
+    font: 20px arial, sans-serif;
+    -webkit-filter: blur(0.6px);
+    -moz-filter: blur(0.6px);
+    -o-filter: blur(0.6px);
+    -ms-filter: blur(0.6px);
+    filter: blur(0.6px);
+}
+.downloadJson {
+    position: relative;
+    margin-top: -1.5% !important;
+    float: right !important;
+    padding-top: 3px !important;
+    padding-left: 7px !important;
+    background-color: black;
+    color: white;
+    height:27px;
+    width:27px;
+    border-radius: 5px;
+    font: 20px arial, sans-serif;
+    -webkit-filter: blur(0.6px);
+    -moz-filter: blur(0.6px);
+    -o-filter: blur(0.6px);
+    -ms-filter: blur(0.6px);
+    filter: blur(0.6px);
+}
+
+

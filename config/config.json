@@ -1,0 +1,13 @@
+{
+  "development": {
+    "Server_URL": "http://localhost:3001"
+
+  },
+  "test": {
+       "Server_URL": "http://localhost:3001"
+
+  },
+  "production": {
+    "Server_URL": "https://lp01-team-e-server.herokuapp.com"
+  }
+}
